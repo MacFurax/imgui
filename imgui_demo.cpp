@@ -574,12 +574,6 @@ static void ShowDemoWindowWidgets()
             //ImGui::ListBox("##listbox2", &listbox_item_current2, listbox_items, IM_ARRAYSIZE(listbox_items), 4);
         }
 
-        {
-            // Knob
-            static float knobVal = 10.0f;
-            ImGui::Knob("Knob", &knobVal, 0.0f, 100.0f);
-        }
-
         ImGui::TreePop();
     }
 
